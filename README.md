@@ -3,7 +3,8 @@ You're an alien and you've crash-landed in a blueberry jam factory! You coincide
 
 ## installation instructions:
 ```
-1. download as zip, or 
+1. download as zip
+2. unzip
 2. Open with Godot 4.3
 3. In the top right, there should be a play button
 ```
