@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://f1exu880hb52"]
+
+[ext_resource type="Script" path="res://Game/scenes/common/assets/camera.gd" id="1_hn1f2"]
+
+[node name="Camera2D" type="Camera2D" groups=["Camera"]]
+zoom = Vector2(4, 4)
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0
+editor_draw_limits = true
+editor_draw_drag_margin = true
+script = ExtResource("1_hn1f2")

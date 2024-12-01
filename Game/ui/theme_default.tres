@@ -1,0 +1,72 @@
+[gd_resource type="Theme" load_steps=11 format=3 uid="uid://c7at2d4binkqm"]
+
+[ext_resource type="FontFile" uid="uid://1fptixojg2sn" path="res://Game/ui/assets/Jersey10-Regular.ttf" id="1_6487d"]
+[ext_resource type="Texture2D" uid="uid://drt61s4apb5gy" path="res://Game/ui/assets/buttons.png" id="2_dmatn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fm3g4"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dxkt1"]
+content_margin_left = 40.0
+content_margin_top = 40.0
+content_margin_right = 40.0
+content_margin_bottom = 40.0
+texture = ExtResource("2_dmatn")
+texture_margin_left = 2.0
+texture_margin_top = 4.0
+texture_margin_right = 2.0
+texture_margin_bottom = 3.0
+region_rect = Rect2(48, 0, 16, 16)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yys7g"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rpr3o"]
+texture = ExtResource("2_dmatn")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 5.0
+region_rect = Rect2(32, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ap4kx"]
+texture = ExtResource("2_dmatn")
+texture_margin_left = 2.0
+texture_margin_top = 3.0
+texture_margin_right = 2.0
+texture_margin_bottom = 4.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ba06r"]
+texture = ExtResource("2_dmatn")
+texture_margin_left = 2.0
+texture_margin_top = 4.0
+texture_margin_right = 2.0
+texture_margin_bottom = 3.0
+region_rect = Rect2(16, 0, 16, 16)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_s5t74"]
+content_margin_left = 3.0
+content_margin_top = 3.0
+content_margin_right = 3.0
+content_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ledvd"]
+bg_color = Color(0.294118, 0.262745, 0.541176, 1)
+corner_detail = 5
+
+[resource]
+default_font = ExtResource("1_6487d")
+default_font_size = 18
+/font_sizes/default = 9
+/fonts/default = ExtResource("1_6487d")
+/styles/panel = SubResource("StyleBoxFlat_fm3g4")
+Button/styles/disabled = SubResource("StyleBoxTexture_dxkt1")
+Button/styles/focus = SubResource("StyleBoxEmpty_yys7g")
+Button/styles/hover = SubResource("StyleBoxTexture_rpr3o")
+Button/styles/normal = SubResource("StyleBoxTexture_ap4kx")
+Button/styles/pressed = SubResource("StyleBoxTexture_ba06r")
+Label/colors/font_shadow_color = Color(0.207843, 0.211765, 0.415686, 0.627451)
+Label/constants/shadow_offset_x = -1
+Label/constants/shadow_offset_y = 1
+Label/constants/shadow_outline_size = 1
+Label/styles/normal = SubResource("StyleBoxEmpty_s5t74")
+Panel/styles/panel = SubResource("StyleBoxFlat_ledvd")

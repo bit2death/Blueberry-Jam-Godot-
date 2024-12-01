@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://f54qauy57ri2"]
+
+[ext_resource type="Script" path="res://Application/save/save.gd" id="1_tnomq"]
+
+[node name="Save" type="Node"]
+script = ExtResource("1_tnomq")
