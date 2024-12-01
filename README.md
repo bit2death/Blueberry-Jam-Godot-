@@ -3,10 +3,11 @@ You're an alien and you've crash-landed in a blueberry jam factory! You coincide
 
 ## installation instructions:
 ```
-1. download as zip
-2. unzip
-2. Open with Godot 4.3
-3. In the top right, there should be a play button
+1. Change branch to "master"
+2. download as zip
+3. unzip
+4. Open with Godot 4.3
+5. In the top right, there should be a play button
 ```
 
 This is incomplete, and I let this project linger on too long.
